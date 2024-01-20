@@ -11,13 +11,16 @@ body {
     min-height: 100vh;
     position: relative;
 }
+
+/* --- background section --- */
+
 .bg {
     position: absolute;
     top: 0;
     left: 0;
-    width: 40%;
+    width: 45%;
     height: 100%;
-    background-image: url(bg.jpg);
+    background-image: url(imgs/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,16 +44,20 @@ body {
 }
 .bg .message {
     position: absolute;
-    bottom: 5%;
-    right: 7%;
+    bottom: 8%;
+    right: 10%;
     width: 30%;
     font-size: .3em;
     color: #fff;
+    text-align: center;
 }
+
+/* --- login section --- */
+
 .login-container {
     position: absolute;
     top: 50%;
-    right: 10%;
+    right: 5%;
     translate: 0 -50%;
     width: 40%;
     height: 70%;
@@ -113,6 +120,7 @@ body {
     background: #274c77;
 }
 .login-container .signup-account {
+    width: 100%;
     margin: 0 auto;
     color: #6096ba;
     text-decoration: none;
@@ -126,6 +134,6 @@ body {
     color: #274c77;
     font-size: 1em;
     font-weight: bold;
-    margin-left: 3%;
+    margin-left: 1%;
     text-decoration: none;
 }
