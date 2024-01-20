@@ -191,6 +191,9 @@ body {
 }
 
 @media screen and (width <= 500px) {
+    .bg .message {
+        width: 50%;
+    }
     .login-container .tital {
         margin-bottom: 7%;
     }
