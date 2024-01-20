@@ -149,6 +149,7 @@ body {
     .bg .message {
         top: 17%;
         right: 20%;
+        width: 20%;
     }
     .login-container {
         width: 90%;
@@ -159,6 +160,10 @@ body {
     }
 }
 @media screen and (width <= 600px) {
+    .bg .message {
+        right: 10%;
+        width: 30%;
+    }
     .login-container {
         width: 90%;
         height: 400px;
