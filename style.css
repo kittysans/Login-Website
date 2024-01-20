@@ -172,7 +172,7 @@ body {
     }
     .login-container .Login-bt {
         font-size: .9em;
-        height: 10%;
+        height: 12%;
     }
     .login-container .forgot-password {
         font-size: .7em;
@@ -182,5 +182,21 @@ body {
     }
     .login-container .signup-account .highlight {
         font-size: .9em;
+    }
+}
+
+@media screen and (width <= 500px) {
+    .login-container .tital {
+        margin-bottom: 7%;
+    }
+    .login-container input:first-of-type {
+        margin-bottom: 7%;
+    }
+    .login-container .forgot-password {
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+    }
+    .login-container .Login-bt {
+        margin-bottom: 7%;
     }
 }
