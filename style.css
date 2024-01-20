@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans, sans-serif;
+}
+body {
+    min-height: 100vh;
+    position: relative;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 100%;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bg .logo-container {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    background: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+.bg .logo-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.bg .message {
+    position: absolute;
+    bottom: 5%;
+    right: 7%;
+    width: 30%;
+    font-size: .3em;
+    color: #fff;
+}
+.login-container {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    translate: 0 -50%;
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #dadada;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+    background: #fff;
+}
+.login-container .tital {
+    font-size: 2em;
+    font-family: Dancing Script, sans-serif;
+    margin-bottom: 5%;
+    color: #6096ba;
+}
+.login-container input {
+    width: 100%;
+    height: 13%;
+    padding: 0 5%;
+    border-radius: 10px;
+    border: 1px solid #e5e5e5;
+    outline: 0;
+    font-size: 1em;
+    transition: all .3s;
+}
+.login-container input:first-of-type {
+    margin-bottom: 5%;
+}
+.login-container input:focus {
+    border: 1px solid blue;
+}
+.forgot-password {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-right: auto;
+    margin-left: 2.5%;
+    font-size: .8em;
+    text-decoration: none;
+    color: #6096ba;
+}
+.login-container .Login-bt {
+    width: 100%;
+    height: 12%;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    background: #6096ba;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 5%;
+}
+.login-container .Login-bt:active {
+    background: #274c77;
+}
+.login-container .signup-account {
+    margin: 0 auto;
+    color: #6096ba;
+    text-decoration: none;
+    font-size: .8em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-wrap: nowrap;
+}
+.login-container .signup-account .highlight {
+    color: #274c77;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 3%;
+    text-decoration: none;
+}
