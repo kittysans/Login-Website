@@ -158,3 +158,29 @@ body {
         translate: -50% -50%;
     }
 }
+@media screen and (width <= 600px) {
+    .login-container {
+        width: 90%;
+        height: 400px;
+        top: 68%;
+        left: 50%;
+        translate: -50% -50%;
+    }
+    .login-container input {
+        font-size: .8em;
+        height: 11%;
+    }
+    .login-container .Login-bt {
+        font-size: .9em;
+        height: 10%;
+    }
+    .login-container .forgot-password {
+        font-size: .7em;
+    }
+    .login-container .signup-account {
+        font-size: .7em;
+    }
+    .login-container .signup-account .highlight {
+        font-size: .9em;
+    }
+}
