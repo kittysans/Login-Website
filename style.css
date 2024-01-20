@@ -137,3 +137,15 @@ body {
     margin-left: 1%;
     text-decoration: none;
 }
+
+@media screen and (width <= 900px) {
+    .bg {
+        width: 100%;
+    }
+    .login-container {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+    }
+}
